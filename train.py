@@ -9,8 +9,7 @@ import joblib
 
 # ✅ 1) Load your CSV dataset
 # Your CSV must have 2 columns: 'query' and 'label'
-# 'label' = 1 for malicious, 0 for benign
-df = pd.read_csv("SQLiV3.csv")
+df = pd.read_csv("SQLiV3_cleaned.csv")
 
 print(f"Loaded {len(df)} samples")
 print(df.head())
