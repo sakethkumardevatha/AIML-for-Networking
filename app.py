@@ -6,7 +6,7 @@ import re
 # Load the trained model
 @st.cache_resource
 def load_model():
-    return joblib.load("sqli_detector.pkl")
+    return joblib.load("model/sqli_detector.pkl")
 
 model = load_model()
 
