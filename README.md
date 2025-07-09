@@ -25,7 +25,8 @@ AIML-for-Networking/
 Setup Instructions
 1. Clone the Repository
 
-git clone https://github.com/sakethkumardevatha/AIML-for-Networking.git
+git clone https://github.com/sakethkumardevatha/AIML-for-Networking.git  
+
 cd AIML-for-Networking
 
 2. Create and Activate Virtual Environment (recommended)
